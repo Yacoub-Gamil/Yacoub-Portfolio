@@ -4,6 +4,7 @@ import { PiEyeClosedFill, PiEyeFill } from "react-icons/pi";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { NavLink } from "react-router-dom";
 
+
 /* eslint-disable react/prop-types */
 function ProjectCard({ children, image1, image2, title, intro }) {
   const [show, setShow] = useState(false);
@@ -44,7 +45,7 @@ function ProjectCard({ children, image1, image2, title, intro }) {
           <NavLink
             target="blank"
             to="https://the-wild-oasis-next-tau.vercel.app/"
-            className={`flex xs:w-[9rem] lg:w-[12rem] sm:py-[.6rem] justify-center items-center lg:py-[.4rem] gap-4 xs:text-[.8rem] xs:px-[.5rem] lg:text-[1.2rem] rounded-lg  shadow-[0px_0px_10px_0px_#3ecf8e] `}
+            className={`flex xs:w-[9rem] lg:w-[12rem] sm:py-[.6rem] justify-center items-center lg:py-[.4rem] gap-4 xs:py-1 xs:text-[.8rem] xs:px-[.5rem] lg:text-[1.2rem] rounded-lg  shadow-[0px_0px_10px_0px_#3ecf8e] `}
             onMouseEnter={() => setShow(true)}
             onMouseLeave={() => setShow(false)}
           >

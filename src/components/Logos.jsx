@@ -48,25 +48,25 @@ function Logos() {
         WORK SMOOTHLY WITH
       </h1>
       <div className="  text-[#d5d5d8] xxl:text-[3rem] mt-[1rem] xl:mb-[5.5rem] xl:mt-[1rem] lg:text-[2rem] flex justify-center items-center xs:gap-2 xl:gap-7 xs:text-[1.6rem] sm:text-[1.6rem] xl:text-[2rem]">
-        <div className="icon">
+        <div className="icon ">
           <FaHtml5 />
         </div>
-        <div className="icon">
+        <div className="icon ">
           <FaCss3Alt />
         </div>
-        <div className="icon">
+        <div className="icon ">
           <FaJsSquare />
         </div>
-        <div className="icon">
+        <div className="icon ">
           <FaReact />
         </div>
-        <div className="icon">
+        <div className="icon ">
           <RiNextjsFill />
         </div>
-        <div className="icon">
+        <div className="icon ">
           <RiTailwindCssFill />
         </div>
-        <div className="icon">
+        <div className="icon ">
           <FaSquareGithub />
         </div>
       </div>

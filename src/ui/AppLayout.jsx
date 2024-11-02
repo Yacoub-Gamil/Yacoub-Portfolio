@@ -2,6 +2,7 @@ import Home from "../pages/Home";
 import Header from "../components/Header";
 import About from "../pages/About";
 import Projects from "../pages/Projects";
+import Contact from "../pages/Contact";
 
 function AppLayout() {
   return (
@@ -10,6 +11,7 @@ function AppLayout() {
       <Home />
       <About />
       <Projects />
+      <Contact />
     </div>
   );
 }

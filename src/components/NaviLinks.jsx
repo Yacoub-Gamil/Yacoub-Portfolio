@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FaSquareGithub } from "react-icons/fa6";
 import ButtonLink from "./ButtonLink";
 
@@ -19,12 +19,20 @@ function NaviLinks() {
         >
           <FaSquareGithub />
         </NavLink>
-        <NavLink
+        <Link
+          to="#contact"
+          onClick={() => {
+            const element = document.getElementById("contact");
+            window.scrollTo({
+              behavior: "smooth",
+              top:
+                element.getBoundingClientRect().top + window.pageYOffset - 80,
+            });
+          }}
           className="border border-[#373636] sm:text-[.7rem] xl:text-[.9rem] xs:text-[1rem] sm:block hover:border-[#585656] duration-300 font-semibold xs:hidden md:block sm:py-[3px] sm:px-4 bg-[#242424] rounded-md"
-          to="/contact"
         >
           <span>Contact</span>
-        </NavLink>
+        </Link>
       </div>
     </div>
   );

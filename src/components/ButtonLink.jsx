@@ -6,7 +6,7 @@ function ButtonLink({ children, to }) {
     <Link
       to={to}
       onClick={() => {
-        const link = to.replace("#", "")
+        const link = to.replace("#", "");
         const element = document.getElementById(link);
         window.scrollTo({
           behavior: "smooth",
