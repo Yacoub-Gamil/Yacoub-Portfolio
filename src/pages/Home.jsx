@@ -55,6 +55,7 @@ function Home() {
             href="yacoub-cv.pdf"
             target="_blank"
             className=" flex xs:text-[.8rem] sm:text-[1rem] xl:text-[1.4rem] items-center gap-2 border border-[#373636] hover:border-[#585656] duration-300  py-[4px] px-4 bg-[#242424] rounded-md"
+          >
             <span>Resume</span> <PiBookOpenText />
           </a>
         </div>
