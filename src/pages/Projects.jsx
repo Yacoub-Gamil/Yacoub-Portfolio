@@ -36,7 +36,7 @@ function Projects() {
         <div className="w-full h-full">
           {/* The container start */}
           <div className="w-full flex flex-col gap-6 items-center">
-            <ProjectCard
+            {/* <ProjectCard
               image1="/projects/wild-next/wild-next-1.png"
               image2="/projects/wild-next/wild-next-2.png"
               title="The Wild Oasis"
@@ -47,6 +47,21 @@ function Projects() {
               this is your paradise away from home. But it&apos;s not just about
               the luxury cabins. It&apos;s about the experience of reconnecting
               with nature and enjoying simple pleasures with family.
+            </ProjectCard> */}
+
+            <ProjectCard
+              image1="/projects/loft-gallery/loft-1.jpg"
+              image2="/projects/loft-gallery/loft-2.jpg"
+              title="The Loft Gallery"
+              intro="it's a user interface to do a reservation"
+              to=""
+            >
+              Aplatform that is specifically aimed for people they want to buy
+              antique items and also they can explore the store. The Loft
+              Gallery is acomforting place filled with countless décor items,
+              art pieces, lighting fixt. The Loftgallery focuses on furniture,
+              accessories, rugs and home accents that are functional and
+              effortlessly cool.
             </ProjectCard>
           </div>
 
