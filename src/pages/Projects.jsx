@@ -52,7 +52,7 @@ function Projects() {
             <ProjectCard
               image1="/projects/loft-gallery/loft-1.jpg"
               image2="/projects/loft-gallery/loft-2.jpg"
-              title="The Loft Gallery"
+              title="Loft Gallery"
               intro="it's a user interface to do a reservation"
               to=""
             >
