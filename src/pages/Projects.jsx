@@ -54,7 +54,7 @@ function Projects() {
               image2="/projects/loft-gallery/loft-2.jpg"
               title="Loft Gallery"
               intro="it's a user interface to do a reservation"
-              to=""
+              to="loft-gallery.vercel.app"
             >
               Aplatform that is specifically aimed for people they want to buy
               antique items and also they can explore the store. The Loft
